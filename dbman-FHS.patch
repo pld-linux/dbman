@@ -1,0 +1,44 @@
+diff -durN dbman-0.1.0.orig/dbman dbman-0.1.0/dbman
+--- dbman-0.1.0.orig/dbman	Mon Feb 21 16:31:15 2000
++++ dbman-0.1.0/dbman	Tue Mar 20 19:15:10 2001
+@@ -1,6 +1,6 @@
+ #! /usr/bin/perl
+ eval 'exec /usr/bin/perl -S $0 ${1+"$@"}' if 0; # not running under some shell
+-BEGIN { $main::DEFA = "/usr/lib/dbman"; }
++BEGIN { $main::DEFA = "/usr/share/dbman"; }
+ 
+ 
+ 
+diff -durN dbman-0.1.0.orig/dbman-le dbman-0.1.0/dbman-le
+--- dbman-0.1.0.orig/dbman-le	Sat Jan  8 02:37:25 2000
++++ dbman-0.1.0/dbman-le	Tue Mar 20 19:15:34 2001
+@@ -1,6 +1,6 @@
+ #! /usr/bin/perl
+ eval 'exec /usr/bin/perl -S $0 ${1+"$@"}' if 0; # not running under some shell
+-BEGIN { $main::DEFA = "/usr/lib/dbman"; }
++BEGIN { $main::DEFA = "/usr/share/dbman"; }
+ 
+ require 5.003;
+ use strict qw/subs vars/;
+diff -durN dbman-0.1.0.orig/dbman-proxy dbman-0.1.0/dbman-proxy
+--- dbman-0.1.0.orig/dbman-proxy	Sat Jan  8 02:37:01 2000
++++ dbman-0.1.0/dbman-proxy	Tue Mar 20 19:15:44 2001
+@@ -1,6 +1,6 @@
+ #! /usr/bin/perl
+ eval 'exec /usr/bin/perl -S $0 ${1+"$@"}' if 0; # not running under some shell
+-BEGIN { $main::DEFA = "/usr/lib/dbman"; }
++BEGIN { $main::DEFA = "/usr/share/dbman"; }
+ 
+ use strict;
+ use vars qw($LANG $VERSION $VERNAME $quiet $ORIG_0 $DEFAULT_DIR $mylib $dbi
+diff -durN dbman-0.1.0.orig/dbman-sql-server dbman-0.1.0/dbman-sql-server
+--- dbman-0.1.0.orig/dbman-sql-server	Sat Jan  8 02:36:20 2000
++++ dbman-0.1.0/dbman-sql-server	Tue Mar 20 19:15:54 2001
+@@ -1,6 +1,6 @@
+ #! /usr/bin/perl
+ eval 'exec /usr/bin/perl -S $0 ${1+"$@"}' if 0; # not running under some shell
+-BEGIN { $main::DEFA = "/usr/lib/dbman"; }
++BEGIN { $main::DEFA = "/usr/share/dbman"; }
+ 
+ require 5.003;
+ use strict qw/subs vars/;
