@@ -37,9 +37,10 @@ on Perla, Tk oraz interfej DBI.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_sbindir},%{_bindir},%{_datadir}/%{name}/{plugins,nDBD,nonTk,nDBI/Statement}}
 
-install dbman czdbman dedbman dbman-bug dbman-proxy dbman-sql-server \
-	dbman-le dbman-le-default xdbish tdesigner tdesigner cztdesigner \
+install dbman czdbman dedbman dbman-bug dbman-proxy dbman-le \
+	dbman-le-default xdbish tdesigner tdesigner cztdesigner \
 	$RPM_BUILD_ROOT%{_bindir}
+install dbman-sql-server $RPM_BUILD_ROOT%{_sbindir}/dbman-sql-server
 install splash.gif folder.xbm openfolder.xbm viewfolder.xbm database.xbm \
 	database.xbm Plugin.pm checksum dbManEval.pm dbManLang.pm \
 	dbManWeb.pm dbman.help.en dbman.help.cz nDBI.pm nDBD.pm \
@@ -47,7 +48,6 @@ install splash.gif folder.xbm openfolder.xbm viewfolder.xbm database.xbm \
 install nonTk/Tk.pm $RPM_BUILD_ROOT%{_datadir}/%{name}/nonTk/Tk.pm
 install nDBI/Statement.pm $RPM_BUILD_ROOT%{_datadir}/%{name}/nDBI/Statement.pm
 install nDBI/Statement/Hash.pm $RPM_BUILD_ROOT%{_datadir}/%{name}/nDBI/Statement/Hash.pm
-
 install plugExample.pm plugPgSql.pm plugOracle.pm $RPM_BUILD_ROOT%{_datadir}/%{name}/plugins
 install nDBD/{ADO,Adabas,Altera,CSV,DB2,ExampleP,FreeTDS,Fulcrum,Illustra,Informix}.pm \
 	nDBD/{Informix4,Ingres,NET,NullP,ODBC,Oracle,Pg,QBase,Solid,Sponge,Sponge}.pm \
