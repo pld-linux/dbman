@@ -16,7 +16,7 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define	_noautoprovfiles	%{_datadir}/%{name}/.*
-%define	_noautoreq		'perl(Compact)' 'perl(Plugin)' 'perl(dbMan.*)' 'perl(nDB[ID])'
+%define	_noautoreq		'perl(Compact)' 'perl(Plugin)' 'perl(dbMan.*)' 'perl(nDB[ID].*)'
 
 %description
 dbMan is a simple SQL monitor for common database system (PgSQL,
