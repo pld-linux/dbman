@@ -7,6 +7,7 @@ Release:	4
 License:	GPL QPL BSD Eiffel Artistic Aladdin
 Group:		Applications/Databases/Interfaces
 Source0:	http://www.fi.muni.cz/~xsorm/%{name}/ftp/%{name}-%{version}.tar.gz
+# Source0-md5:	4db94ad612538981335fa31d16fa0785
 Patch0:		%{name}-FHS.patch
 URL:		http://www.fi.muni.cz/~xsorm/%{name}/
 BuildArch:	noarch
