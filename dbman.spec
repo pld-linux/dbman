@@ -6,8 +6,6 @@ Version:	0.1.0
 Release:	2
 License:	GPL QPL BSD Eiffel Artistic Alladin
 Group:		Applications/Databases/Interfaces
-Group(de):	Applikationen/Dateibanken/Schnittstellen
-Group(pl):	Aplikacje/Bazy danych/Interfejsy
 Source0:	http://www.fi.muni.cz/~xsorm/%{name}/ftp/%{name}-%{version}.tar.gz
 Patch0:		%{name}-FHS.patch
 URL:		http://www.fi.muni.cz/~xsorm/%{name}/
