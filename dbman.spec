@@ -18,6 +18,9 @@ BuildRequires:	perl-DBI
 Requires:	%{perl_sitearch}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
+%define		_noautoprovfiles %{_datadir}/%{name}/*
+%define		_noautoreq "perl(Term::ReadLine)" "perl(Term::Slang)" "perl(Curses)"
+
 %description
 dbMan is a simple SQL monitor for common database system (PgSQL,
 Oracle). It's based on Perl, Tk (include Tix) and DBI interfaces (nDBI
