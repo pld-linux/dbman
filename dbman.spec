@@ -51,7 +51,7 @@ install nDBI/Statement/Hash.pm $RPM_BUILD_ROOT%{_datadir}/%{name}/nDBI/Statement
 install plugExample.pm plugPgSql.pm plugOracle.pm $RPM_BUILD_ROOT%{_datadir}/%{name}/plugins
 install nDBD/{ADO,Adabas,Altera,CSV,DB2,ExampleP,FreeTDS,Fulcrum,Illustra,Informix}.pm \
 	nDBD/{Informix4,Ingres,NET,NullP,ODBC,Oracle,Pg,QBase,Solid,Sponge,Sponge}.pm \
-	nDBD/{Sybase,XBase,mSQL,mysql,pNET} \
+	nDBD/{Sybase,XBase,mSQL,mysql,NET}.pm \
 	$RPM_BUILD_ROOT%{_datadir}/%{name}/nDBD
 
 %clean
