@@ -3,7 +3,7 @@ Summary:	Simple SQL monitor for common database system (PgSQL, Oracle and others
 Summary(pl):	Prosty interfejs do popularnych baz danych (PgSWL, Oracle itp.)
 Name:		dbman
 Version:	0.1.0
-Release:	4
+Release:	5
 License:	GPL QPL BSD Eiffel Artistic Aladdin
 Group:		Applications/Databases/Interfaces
 Source0:	http://www.fi.muni.cz/~xsorm/%{name}/ftp/%{name}-%{version}.tar.gz
@@ -15,7 +15,8 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_noautoprovfiles	%{_datadir}/%{name}/.*
+%define	_noautoprovfiles	%{_datadir}/%{name}/.*
+%define	_noautoreq		'perl(Compact)' 'perl(Plugin)' 'perl(dbMan.*)' 'perl(nDB[ID])'
 
 %description
 dbMan is a simple SQL monitor for common database system (PgSQL,
