@@ -2,7 +2,7 @@
 Summary:	Simple SQL monitor for common database system (PgSQL, Oracle and others)
 Summary(pl):	Prosty interfejs do popularnych baz danych (PgSWL, Oracle itp.)
 Name:		dbman
-Version:	0.1.0	
+Version:	0.1.0
 Release:	2
 License:	GPL QPL BSD Eiffel Artistic Alladin
 Group:		Applications/Databases/Interfaces
@@ -102,11 +102,11 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc doc/*
 %doc Alladin Artistic BSD BUGS CREDITS Changelog Eiffel LICENSE
-%doc MIRRORS PGPKEY QPL README* TODO WHATSNEW 
-%attr(755,root,root) %{_bindir}/dbman* 
-%attr(755,root,root) %{_bindir}/tdesigner 
-%attr(755,root,root) %{_bindir}/xdbish 
-%attr(755,root,root) %{_sbindir}/* 
-%lang(cz) %attr(755,root,root) %{_bindir}/cz* 
-%lang(de) %attr(755,root,root) %{_bindir}/de* 
+%doc MIRRORS PGPKEY QPL README* TODO WHATSNEW
+%attr(755,root,root) %{_bindir}/dbman*
+%attr(755,root,root) %{_bindir}/tdesigner
+%attr(755,root,root) %{_bindir}/xdbish
+%attr(755,root,root) %{_sbindir}/*
+%lang(cz) %attr(755,root,root) %{_bindir}/cz*
+%lang(de) %attr(755,root,root) %{_bindir}/de*
 %{_datadir}/%{name}
