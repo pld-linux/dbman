@@ -3,7 +3,7 @@ Summary:	Simple SQL monitor for common database system (PgSQL, Oracle and others
 Summary(pl):	Prosty interfejs do popularnych baz danych (PgSWL, Oracle itp.)
 Name:		dbman
 Version:	0.1.0
-Release:	2
+Release:	3
 License:	GPL QPL BSD Eiffel Artistic Alladin
 Group:		Applications/Databases/Interfaces
 Source0:	http://www.fi.muni.cz/~xsorm/%{name}/ftp/%{name}-%{version}.tar.gz
@@ -107,6 +107,6 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/tdesigner
 %attr(755,root,root) %{_bindir}/xdbish
 %attr(755,root,root) %{_sbindir}/*
-%lang(cz) %attr(755,root,root) %{_bindir}/cz*
+%lang(cs) %attr(755,root,root) %{_bindir}/cz*
 %lang(de) %attr(755,root,root) %{_bindir}/de*
 %{_datadir}/%{name}
