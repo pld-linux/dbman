@@ -9,11 +9,11 @@ Group:		Applications/Databases/Interfaces
 Source0:	http://www.fi.muni.cz/~xsorm/%{name}/ftp/%{name}-%{version}.tar.gz
 # Source0-md5:	4db94ad612538981335fa31d16fa0785
 Patch0:		%{name}-FHS.patch
-URL:		http://www.fi.muni.cz/~xsorm/%{name}/
-BuildArch:	noarch
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+URL:		http://www.fi.muni.cz/~xsorm/dbman/
 BuildRequires:	perl >= 5.6
 BuildRequires:	perl-DBI
+BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_noautoprovfiles %{_datadir}/%{name}/*
@@ -31,8 +31,6 @@ on Perla, Tk oraz interfej DBI.
 %prep
 %setup -q
 %patch0 -p1
-
-%build
 
 %install
 rm -rf $RPM_BUILD_ROOT
