@@ -25,7 +25,7 @@ specification).
 
 %description -l pl
 dbMan to prosty interfejs SQL do popularnych baz danych. Wykorzystuje
-on Perla, Tk oraz interfej DBI.
+on Perla, Tk oraz interfejs DBI.
 
 %prep
 %setup -q
