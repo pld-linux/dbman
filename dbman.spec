@@ -3,7 +3,7 @@ Summary:	Simple SQL monitor for common database system (PgSQL, Oracle and others
 Summary(pl):	Prosty interfejs do popularnych baz danych (PgSWL, Oracle itp.)
 Name:		dbman
 Version:	0.1.0	
-Release:	1
+Release:	2
 License:	GPL QPL BSD Eiffel Artistic Alladin
 Group:		Applications/Databases/Interfaces
 Group(pl):	Aplikacje/Bazy danych/Interfejsy
