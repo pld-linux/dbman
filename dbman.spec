@@ -10,14 +10,12 @@ Source0:	http://www.fi.muni.cz/~xsorm/%{name}/ftp/%{name}-%{version}.tar.gz
 # Source0-md5:	4db94ad612538981335fa31d16fa0785
 Patch0:		%{name}-FHS.patch
 URL:		http://www.fi.muni.cz/~xsorm/dbman/
-BuildRequires:	perl >= 5.6
 BuildRequires:	perl-DBI
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_noautoprovfiles %{_datadir}/%{name}/*
-%define		_noautoreq "perl(Term::ReadLine)" "perl(Term::Slang)" "perl(Curses)"
+%define		_noautoprovfiles	%{_datadir}/%{name}/.*
 
 %description
 dbMan is a simple SQL monitor for common database system (PgSQL,
