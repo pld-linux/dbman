@@ -4,7 +4,7 @@ Summary(pl):	Prosty interfejs do popularnych baz danych (PgSWL, Oracle itp.)
 Name:		dbman
 Version:	0.1.0
 Release:	3
-License:	GPL QPL BSD Eiffel Artistic Alladin
+License:	GPL QPL BSD Eiffel Artistic Aladdin
 Group:		Applications/Databases/Interfaces
 Source0:	http://www.fi.muni.cz/~xsorm/%{name}/ftp/%{name}-%{version}.tar.gz
 Patch0:		%{name}-FHS.patch
