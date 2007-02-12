@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Simple SQL monitor for common database system (PgSQL, Oracle and others)
-Summary(pl):	Prosty interfejs do popularnych baz danych (PgSWL, Oracle itp.)
+Summary(pl.UTF-8):   Prosty interfejs do popularnych baz danych (PgSWL, Oracle itp.)
 Name:		dbman
 Version:	0.1.0
 Release:	5
@@ -23,7 +23,7 @@ dbMan is a simple SQL monitor for common database system (PgSQL,
 Oracle). It's based on Perl, Tk (include Tix) and DBI interfaces (nDBI
 specification).
 
-%description -l pl
+%description -l pl.UTF-8
 dbMan to prosty interfejs SQL do popularnych baz danych. Wykorzystuje
 on Perla, Tk oraz interfejs DBI.
 
