@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 Summary:	Simple SQL monitor for common database system (PgSQL, Oracle and others)
 Summary(pl.UTF-8):	Prosty interfejs do popularnych baz danych (PgSWL, Oracle itp.)
 Name:		dbman
